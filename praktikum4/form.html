@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="description" content="Praktikum 4 Pemrograman Berbasis Web">
+    <meta name="keywords" content="HTML, CSS, Form, Meta">
+    <meta name="author" content="I Kadek Agus Chandra Pradika">
+</head>
+
+<body>
+<h1>BIODATA</h1>
+    <form>        
+        <div class="container">
+            <div class="row">
+                <label for="nama">NAMA</label><br>
+                <input type="text" placeholder="Masukan Nama Anda">
+            </div>
+
+            <div class="row">
+                <label for="nama">TEMPAT LAHIR</label><br>
+                <input type="text" placeholder="Masukan Tempat Lahir">
+            </div>
+
+            <div class="row">
+                <label for="nama">TANGGAL LAHIR</label><br>
+                <input type="date" placeholder="Masukan Tempat Lahir">
+            </div>
+
+            <div class="row">
+                <label for="jk">JENIS KELAMIN</label><br>
+                <input type="radio" id="male" name="jk" value="male">
+                <label for="male">Laki - Laki</label><br>
+                <input type="radio" id="female" name="jk" value="female">
+                <label for="female">Perempuan</label><br>
+            </div>
+                
+            <div class="row">
+                <label for="edu">PENDIDIKAN TERAKHIR</label><br>
+                <select id="edu" name="edu">
+                    <option value="kimia">SD</option>
+                    <option value="fisika">SMP</option>
+                    <option value="bio">SMA</option>
+                </select><br>
+            </div>
+                
+            <div class="row">
+                <label for="edu">PENDIDIKAN SAAT INI</label><br>
+                <select id="edu" name="edu">
+                    <option value="kimia">Kimia</option>
+                    <option value="fisika">Fisika</option>
+                    <option value="bio">Biologi</option>
+                    <option value="matik">Matematika</option>
+                    <option value="farmasi">Farmasi</option>
+                    <option value="info">Informatika</option>
+                </select><br>
+            </div>  
+
+            <div class="row">
+                <label for="hp">NOMOR HP</label><br>
+                <input type="number" placeholder="Masukan Nomor HP"><br>
+            </div>
+                
+            <div class="row">
+                <label for="alamat">ALAMAT</label><br>
+                <textarea id="textarea" name="textarea" rows="10" cols="50"></textarea>
+            </div>
+            <button>Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>
